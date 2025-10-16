@@ -6,12 +6,13 @@ import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class TempControlledStorage implements IStorage {
+public class ShelfStorage implements IStorage {
+
     private final String location;
     private final int capacity;
     private final AtomicInteger size;
     private final ConcurrentHashMap<String, StoredOrder> storedOrders;
-    public TempControlledStorage(String location, int capacity)
+    public ShelfStorage(String location, int capacity)
     {
         this.location = location;
         this.capacity = capacity;
@@ -67,5 +68,4 @@ public class TempControlledStorage implements IStorage {
     {
         return location;
     }
-
 }
