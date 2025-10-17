@@ -1,9 +1,9 @@
-package com.css.challenge.manager;
+package com.css.challenge.businessLogic.managers;
 
+import com.css.challenge.businessLogic.storage.IStorage;
 import com.css.challenge.entity.Action;
 import com.css.challenge.entity.StoredOrder;
-import com.css.challenge.storage.IStorage;
-import com.css.challenge.storage.ShelfStorage;
+import com.css.challenge.businessLogic.storage.ShelfStorage;
 
 import java.util.HashMap;
 import java.util.Map;

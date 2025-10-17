@@ -1,4 +1,4 @@
-package com.css.challenge.storage;
+package com.css.challenge.businessLogic.storage;
 
 import com.css.challenge.entity.StoredOrder;
 import org.apache.log4j.Logger;
